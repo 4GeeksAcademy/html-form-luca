@@ -31,17 +31,17 @@
                 </div>
                 <!--Credit Card-->
                 <div class="col-md-5">
-                    <label for="inputCard" class="form-label">Card #</label>
+                    <label for="inputCard" class="form-label">Card #:</label>
                     <input type="password" class="form-control" id="inputCard" placeholder="XXXXXXXXXXXXXXXX" required>
                 </div>
                 <!--CVC-->
                 <div class="col-md-3">
-                    <label for="inputCVC" class="form-label">CVC #</label>
+                    <label for="inputCVC" class="form-label">CVC #:</label>
                     <input type="number" class="form-control" id="inputCVC" minlength="3" placeholder="000" required>                        
                 </div>
                 <!--Amount-->
                 <div class="col-md-4">
-                    <label for="inputAmount" class="form-label">Amount</label>
+                    <label for="inputAmount" class="form-label">Amount:</label>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa-solid fa-dollar-sign"></i></span>
                         <input type="number" class="form-control" id="inputAmount" placeholder="Amount" required> 
@@ -49,16 +49,16 @@
                 </div>
                 <!--Name-->
                 <div class="col-md-6">
-                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <label for="inputFirstName" class="form-label">First Name:</label>
                     <input type="text" class="form-control" id="inputFirstName" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <label for="inputLastName" class="form-label">Last Name:</label>
                     <input type="text" class="form-control" id="inputLastName" required>
                 </div>
                 <!--City-->
                 <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
+                    <label for="inputCity" class="form-label">City:</label>
                     <input type="text" class="form-control" id="inputCity" required>
                 </div>
                 <!--State-->
@@ -74,7 +74,7 @@
                 </div>
                 <!--Postal-->
                 <div class="col-md-3">
-                    <label for="inputPostal" class="form-label">Postal Code</label>
+                    <label for="inputPostal" class="form-label">Postal Code:</label>
                     <input type="text" class="form-control" id="inputPostal" required>
                 </div>
                 <!-- Card Type -->
@@ -96,34 +96,21 @@
                 </fieldset>
                 <!-- Message -->
                 <div class="col-md-6">
-                    <label for="inputMessage" class="form-label">Message</label>
+                    <label for="inputMessage" class="form-label">Message:</label>
                     <textarea class="form-control" id="inputMessage" style="height: 75px"></textarea>
-                    <p class="text-secondary">Add any notes here.</p>
+                    <p class="text-secondary">Add any notes here...</p>
                 </div>
             </div>
               <!--Footer-->
               <div class="card-footer d-flex justify-content-end">
                 <button type="reset" class="btn btn-secondary mx-2">Cancel</button>                
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#confirmationModal">Send</button> 
+                <input type="submit" value="Submit">
             </div>            
         </div> 
         </form> 
     </div>
 
-          <!-- Modal -->
-          <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                  <div class="modal-content">
-                      <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                          Thanks for the submission! We will get back to you as soon as possible.
-                      </div>
-                      <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      </div>
+          
                       
         </div> 
         </form> 
